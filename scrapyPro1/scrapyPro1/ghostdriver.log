@@ -1,0 +1,31 @@
+PhantomJS is launching GhostDriver...
+[INFO  - 2017-05-14T13:40:08.033Z] GhostDriver - Main - running on port 49293
+[INFO  - 2017-05-14T13:40:09.628Z] Session [d91cd270-38aa-11e7-95e5-2f25bace048d] - _decorateNewWindow - page.settings: {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0","webSecurityEnabled":true}
+[INFO  - 2017-05-14T13:40:09.628Z] Session [d91cd270-38aa-11e7-95e5-2f25bace048d] - page.customHeaders:  - {}
+[INFO  - 2017-05-14T13:40:09.628Z] Session [d91cd270-38aa-11e7-95e5-2f25bace048d] - CONSTRUCTOR - Desired Capabilities: {"browserName":"phantomjs","version":"","platform":"ANY","javascriptEnabled":true,"phantomjs.page.settings.userAgent":"Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"}
+[INFO  - 2017-05-14T13:40:09.628Z] Session [d91cd270-38aa-11e7-95e5-2f25bace048d] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.2","driverName":"ghostdriver","driverVersion":"1.0.4","platform":"windows-8-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"},"phantomjs.page.settings.userAgent":"Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0"}
+[INFO  - 2017-05-14T13:40:09.628Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: d91cd270-38aa-11e7-95e5-2f25bace048d
+[ERROR - 2017-05-14T13:40:15.946Z] Session [d91cd270-38aa-11e7-95e5-2f25bace048d] - Page at 'https://passport.weibo.cn/signin/login?entry=mweibo&r=http://weibo.cn/' - Console Error (msg): ReferenceError: Can't find variable: PatternLock
+[ERROR - 2017-05-14T13:40:15.946Z] Session [d91cd270-38aa-11e7-95e5-2f25bace048d] - Page at 'https://passport.weibo.cn/signin/login?entry=mweibo&r=http://weibo.cn/' - Console Error (stack): [
+  {
+    "file": "https://passport.weibo.cn/js/signin/weibologin.js?v=20170223",
+    "line": 968,
+    "function": ""
+  },
+  {
+    "file": "https://passport.weibo.cn/js/signin/weibologin.js?v=20170223",
+    "line": 789,
+    "function": ""
+  },
+  {
+    "file": "https://passport.weibo.cn/js/signin/weibologin.js?v=20170223",
+    "line": 608,
+    "function": ""
+  },
+  {
+    "file": "https://passport.weibo.cn/js/signin/req.js?v=20170223",
+    "line": 185,
+    "function": ""
+  }
+]
+[ERROR - 2017-05-14T13:40:19.865Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1494769219839
